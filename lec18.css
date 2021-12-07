@@ -1,0 +1,486 @@
+body {
+  margin: 0px;
+  background-color: #161a1d;
+}
+
+.oneforall {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.left-side {
+  background-color: white;
+  width: 300px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 2px solid black;
+  box-shadow: 0px 5px 5px 0px black;
+}
+
+.lefttop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.impozi {
+  width: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.left-head {
+  font-family: darling;
+}
+
+@font-face {
+  font-family: darling;
+  src: url("Tokyo\ Knights.ttf");
+}
+
+.left-middle {
+  margin-top: 30px;
+  background-color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.item-icons {
+  width: 25px;
+}
+
+.item-name {
+  margin-left: 10px;
+  font-family: darling;
+  color: white;
+  background-color: #937341;
+  padding: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0px white;
+}
+
+.item-name:hover {
+  animation: myanimi 3s 1s infinite alternate ease-in-out;
+}
+
+@keyframes myanimi {
+  0% {
+    color: white;
+    background-color: #937341;
+  }
+
+  50% {
+    transform: translateX(30px);
+    transform: rotate(360deg);
+    color: #937341;
+    background-color: rgb(238, 248, 248);
+  }
+}
+
+.people-land {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.illustrate {
+  width: 60px;
+  margin: 0px auto;
+}
+
+.support {
+  font-family: darling;
+  font-size: 20px;
+  margin: 5px auto;
+}
+
+.yes {
+  font-family: darling;
+  font-size: 15px;
+  margin: 5px auto;
+}
+
+.people-button {
+  font-family: darling;
+  color: white;
+  background-color: #937341;
+  padding: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0px white;
+  transition: 1s;
+  width: 120px;
+  margin: 0px auto;
+}
+
+.people-button:hover {
+  background-color: #937341;
+  animation: myanimi 3s 1s infinite alternate ease-in-out;
+}
+
+/*middle top*/
+.top-middleall {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.top {
+  width: 1600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  height: fit-content;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.dash-group {
+  width: 1000px;
+  background-color: white;
+}
+
+.dash {
+  font-family: darling;
+}
+
+.top-icons {
+  margin: 10px;
+}
+
+.top-img {
+  width: 30px;
+  margin: 10px;
+}
+
+.top-img2 {
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.hallo-katie {
+  width: 850px;
+  background-color: white;
+  height: 200px;
+  margin: 20px;
+  margin-left: 90px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #937341;
+}
+
+.hallo-kat-group {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.katie-hello {
+  font-family: darling;
+}
+
+.paraforkat {
+  font-family: darling;
+  width: 400px;
+}
+
+.imgforkat {
+  margin-left: 700px;
+  margin-top: -100px;
+  width: 30px;
+}
+
+.katieimg {
+  width: 200px;
+}
+
+.rei {
+  font-family: darling;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+}
+
+/*hire time*/
+.hire {
+  width: 600px;
+  margin: 20px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px;
+  box-sizing: border-box;
+  color: #937341;
+}
+
+.hire-left {
+  width: 600px;
+}
+
+.hire-right {
+  width: 100px;
+  font-size: 30px;
+  margin: 20px;
+  color: #937341;
+}
+
+.hinko {
+  color: #937341;
+  text-decoration: transparent;
+}
+
+.degress {
+  width: 950px;
+  height: 500px;
+
+  margin: 20px;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+  border: 3px solid black;
+  box-shadow: 0px 5px 5px 0px black;
+}
+
+.number {
+  font-family: darling;
+  font-size: 50px;
+  width: 40px;
+  margin-top: -30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: -50px;
+}
+
+.condition {
+  margin-top: -10px;
+}
+
+progress {
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  margin-top: 83px;
+}
+
+.recruit {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: 3px solid black;
+  box-shadow: 0px 2px 3px 0px black;
+  position: relative;
+  margin-left: 100px;
+}
+
+.recruit-left {
+  width: 400px;
+}
+
+.recruit-right {
+  width: 100px;
+  font-size: 30px;
+}
+
+.seeall {
+  font-family: darling;
+  color: white;
+  background-color: #937341;
+  padding: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  border-radius: 0px white;
+  transition: 1s;
+  width: 120px;
+  margin: 0px auto;
+}
+
+.seeall:hover {
+  animation: myanimi 3s 1s infinite alternate ease-in-out;
+}
+
+.idk {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 400px;
+  width: 600px;
+}
+
+.left-name {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.middle-name {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.right-name {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.namesss {
+  font-family: darling;
+}
+
+.rightsidebody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 1px;
+}
+
+.calender {
+  width: 300px;
+  margin-left: -250px;
+  margin-top: 80px;
+}
+
+.applica {
+  width: 470px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  border: 3px solid black;
+  box-shadow: 0px 2px 3px 0px black;
+  margin-left: -650px;
+  margin-top: 30px;
+
+}
+
+.applica-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.applica-left {
+  width: 350px;
+  height: 50px;
+}
+
+.applica-right {
+  width: 100px;
+  font-size: 30px;
+  height: 50px;
+}
+
+.applica-name {
+  font-family: darling;
+  margin-top: -1px;
+}
+
+.last-name {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 470px;
+  background-color: #937341;
+
+  box-sizing: border-box;
+}
+
+.last-name-idk {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.heisse {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: darling;
+  color: #000;
+  margin-left: 5px;
+  width: 250px;
+
+
+}
+
+.photo {
+  width: 50px;
+  border: 3px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.war {
+  margin-left: 2px;
+}
+
+.lastimg {
+  width: 30px;
+  margin: 5px;
+
+}
